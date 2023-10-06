@@ -2,7 +2,7 @@
 /**
  *main - entry point
  *description: 'print numbers of base 10'
- *Return - always 0
+ *Return: always 0
  */
 int main(void)
 {
@@ -12,6 +12,6 @@ for (n = 0; n <= 9; n++)
 {
 printf("%d", n);
 }
-prinf("\n");
+printf("\n");
 return (0);
 }
