@@ -2,7 +2,7 @@
 /**
  *main - entry point
  *
- *Return - always 0
+ *Return: always 0
  */
 int main(void)
 {
@@ -16,5 +16,5 @@ while (m <= 90)
 {
 putchar(m);
 }
-return (0)
+return (0);
 }
