@@ -1,0 +1,28 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/**
+ *main - main entry
+ *
+ *Return - always 0
+ /*
+int main(void)
+{
+int n;
+int ld;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+ld = n%5
+if (ld > 5)
+{
+prinf("%d and is greater than 5\n", n)
+}
+else if (n == 0)
+{
+printf("%d and is 0\n", n);
+}
+else
+printf("%d and is less than 6 and is not less than 0\n", n);
+}
+return (0);
+}
