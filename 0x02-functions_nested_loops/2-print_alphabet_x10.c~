@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ *print_alphabet_x10 - 10 times the alphabet in lowercase
+ *
+ *Return: void
+ */
+void print_alphabet_x10(void)
+{
+char ch;
+int k;
+k = 0;
+while (k < 10)
+{
+for (ch = 'a'; ch <= 'z';
+putchar(ch);
+}
+putchar('\n')
+k++;
+}
