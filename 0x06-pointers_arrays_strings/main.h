@@ -1,9 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-<<<<<<< HEAD
 #include "string.h"
-=======
->>>>>>> 513fa8cf9b42fac318a8a5c323ad3ed859049f17
 
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
