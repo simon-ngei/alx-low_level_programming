@@ -9,9 +9,5 @@
  */
 int _putchar(char c)
 {
-<<<<<<< HEAD
 	return (write(1, &c, 1));
-=======
-return (write(1, &c, 1));
->>>>>>> 513fa8cf9b42fac318a8a5c323ad3ed859049f17
 }
