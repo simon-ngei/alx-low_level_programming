@@ -8,9 +8,16 @@
  */
 int main(void)
 {
+<<<<<<< HEAD
 char s1[98] = "Hello ";
 char s2[] = "World!\n";
 char *ptr;
+=======
+    char s1[98] = "Hello ";
+    char s2[] = "World!\n";
+    char *ptr;
+
+>>>>>>> 6496878a2b3ef64eb01a3bbc9b1ecb4a166fbb1d
     printf("%s\n", s1);
     printf("%s", s2);
     ptr = _strncat(s1, s2, 1);
