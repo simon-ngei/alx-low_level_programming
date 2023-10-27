@@ -1,9 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-<<<<<<< HEAD
-=======
 #include <stdio.h>
->>>>>>> 513fa8cf9b42fac318a8a5c323ad3ed859049f17
 
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
@@ -15,9 +12,6 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
-<<<<<<< HEAD
-=======
 int _atoi(char *s);
->>>>>>> 513fa8cf9b42fac318a8a5c323ad3ed859049f17
 
 #endif

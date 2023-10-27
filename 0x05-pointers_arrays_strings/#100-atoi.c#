@@ -1,9 +1,0 @@
-#include "main.h"
-/**
- *_atoi - function that convert a string to an integer
- *@s: to be checked
- *Return: interger
- */
-int _atoi(char *s)
-{
-  unsigned int count = 0, size = 0, 
