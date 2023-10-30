@@ -1,0 +1,25 @@
+#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ *_strdup - fun that returns a potr to a newly allocated space in memory
+ *@str: char
+ *Return: 0
+ */
+char *_strdup(char *str)
+{
+char *kkk;
+int i, r = 0;
+if (str == NULL)
+return (NULL);
+i = 0;
+while (str[i] != '\0')
+i++;
+kkk = malloc(sizeof(char) * (i + 1));
+if (kkk == NULL)
+return (NULL);
+for (r = 0; str[r]; r++)
+kkk[r] = str[r];
+return (kkk);
+}
