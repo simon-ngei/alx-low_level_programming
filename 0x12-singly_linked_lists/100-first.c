@@ -3,7 +3,7 @@
 void first(void) __attribute__((constructor));
 
 /**
- *main - entry point
+ *first - entry point
  *Return: 0
  */
 void first(void)
