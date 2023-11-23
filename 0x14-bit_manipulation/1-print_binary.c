@@ -1,24 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_binary - Prints the binary representation of a number.
- * @num: The input integer to convert into binary.
- *
- * Description: This function prints the binary representation of a given
- * integer without using arrays, malloc, %, and /. It recursively prints
- * the binary bits of the input integer from the most significant bit to the
- * least significant bit.
+ * @n: The input integer to convert into binary.
  */
-void print_binary(unsigned long int num)
+void print_binary(unsigned long int n)
 {
-	if (num == 0)
-	{
-		_putchar('0');
-		return;
-	}
-
-	if (num > 1)
-		print_binary(num >> 1);
-
-	_putchar((num & 1) + '0');
+if (n == 0)
+{
+putchar('0');
+return;
+}
+if (n > 1)
+print_binary(n >> 1);
+putchar((n & 1) + '0');
 }
